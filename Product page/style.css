@@ -1,0 +1,150 @@
+main {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+	margin: 0px 0px 0px 0px;
+}
+
+#header {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	top:0;
+	left:0;
+	right:0;
+	position: fixed;
+	background: white;
+}
+
+#header-img {
+	width: 110px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nav-bar {
+	text-align: center;
+}
+
+#about-us {
+	max-width: 100%;
+	display: flex;
+	margin: 0 auto;
+	background: #f0f0f0;
+	padding: 30px 70px 30px 70px;
+	margin-top: 156px;
+}
+
+#description {
+	padding-left: 20px;
+	max-width: 50%;
+}
+
+#video {
+	width: 100%;
+	height: minmax(auto,150px);
+}
+
+#our-team {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin: 0 auto;
+	width: 660px;
+	display: flex;
+	text-align: center;
+}
+
+#our-team p {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+#andrej {
+	padding-right: 30px;
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#andrej img {
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+}
+
+#josephine {
+	padding-right: 30px;
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#josephine img {
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+}
+
+#ru {
+	max-width: 200px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#ru img {
+	height: 150px;
+	width: 150px;
+	object-fit: cover;
+}
+
+#our-team img {
+	border-radius: 50%;
+}
+
+@media (max-width: 900px) {
+	#about-us {
+		flex-direction: column;
+		padding: 30px 30px 30px 30px;
+	}
+	#description {
+		max-width: 100%; 
+	}
+	#our-team {
+		width: 200px;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+	#andrej {
+		padding-right: 0px;
+		padding-bottom: 30px;
+	}
+	#josephine {
+		padding-right: 0px;
+		padding-bottom: 30px;
+	}
+}
+
+
+#email {
+	width: 320px;
+	height: 30px;
+	font-size: 25px;
+}
+
+#contact {
+	width: 400px;
+	background: #f0f0f0;
+	padding-top: 15px;
+	margin: 0 auto;
+}
+
+#contactb {
+	height: 160px;
+	max-width: 100%;
+	background-color: #f0f0f0;
+}
+

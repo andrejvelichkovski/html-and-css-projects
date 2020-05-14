@@ -1,0 +1,143 @@
+body {
+	font-family: 'Raleway', sans-serif;	
+	margin: 0px 0px 0px 0px;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+#navbar {
+	width: 100vw;
+	height: 70px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	background-color: #5f6769;
+}
+
+#navbar >* {
+	margin-right: 12px;
+	text-decoration: none;
+	color: white;
+}
+
+#welcome-section {
+	background-image: url(https://astrocampschool.org/wp-content/uploads/2019/01/Stars.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#welcome-section >* {
+	margin: 8px 0px 8px 0px;
+}
+
+#welcome-section h1 {
+	font-size: 50px;
+}
+
+#welcome-section p {
+	font-size: 22px;
+}
+
+.project-tile {
+	display: flex;
+	align-items: center;
+	background-color: #3c4245;
+}
+
+.project-tile p, .project-tile h1 {
+	color: white;
+	margin-right: 40px;
+}
+
+.project-tile img{
+	height: 330px;
+}
+
+.photography-tile {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	background-color: #5f6769;
+}
+
+.photography-tile p, .photography-tile h1 {
+	color: white;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.photography-tile img{
+	height: 350px;
+}
+
+.photography-tile a:link {
+	color: #293a80;
+	text-decoration: none;
+}
+
+.photography-tile a:visited {
+	color: #293a80;
+	text-decoration: none;
+}
+
+#description {
+	margin-left: 20px;
+}
+
+#contact-section {
+	background-image: url(https://astrocampschool.org/wp-content/uploads/2019/01/Stars.jpg);
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+#contact-section h1 {
+	font-size: 50px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: px;
+}
+.button:hover {
+	background: rgba(255, 255, 255, 0.3);
+}
+
+
+@media (max-width: 800px) {
+	.project-tile {
+		flex-direction: column;
+	}
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
